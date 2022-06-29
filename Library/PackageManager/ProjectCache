@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920658408800186
-    m_Hash: 2989432480
+      ticks: 637920681014068704
+    m_Hash: 283481029
   m_LockFileStatus:
     m_FilePath: C:/Users/Joseph/PAC-MAN/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920658932625349
-    m_Hash: 1323924065
+      ticks: 637920681014708568
+    m_Hash: 2498749236
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -546,6 +546,7 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
@@ -661,6 +662,108 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.2d.tilemap.extras@1.8.3-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 1.8.3-preview
+      source: 1
+      resolvedPath: C:\Users\Joseph\PAC-MAN\Library\PackageCache\com.unity.2d.tilemap.extras@1.8.3-preview
+      assetPath: Packages/com.unity.2d.tilemap.extras
+      name: com.unity.2d.tilemap.extras
+      displayName: 2D Tilemap Extras
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Extras is a package that contains extra scripts for
+        use with 2D Tilemap features in Unity. These include custom Tiles and Brushes
+        for the Tilemap feature.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        - 1.8.2-preview
+        - 1.8.3-preview
+        - 2.0.0-pre.1
+        - 2.0.0-pre.2
+        - 2.0.0
+        - 2.2.0
+        - 2.2.1
+        - 2.2.2
+        - 2.2.3
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        compatible:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        - 1.8.2-preview
+        - 1.8.3-preview
+        verified: 
+      dependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.modules.physics2d
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - 2d
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637855123390000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/2d-extras.git
+        revision: 28661469c88cadf217e4a97e1041745d90fbac0d
+        path: 
     - packageId: com.unity.collab-proxy@1.15.12
       testable: 0
       isDirectDependency: 1
@@ -731,6 +834,8 @@ m_PackageAssets:
         - 1.15.16
         - 1.15.17
         - 1.15.18
+        - 1.17.0
+        - 1.17.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -748,6 +853,8 @@ m_PackageAssets:
         - 1.15.16
         - 1.15.17
         - 1.15.18
+        - 1.17.0
+        - 1.17.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -853,6 +960,7 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
         compatible:
         - 1.0.2
         - 1.0.6
@@ -884,6 +992,7 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -958,6 +1067,7 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
+        - 2.0.16
         compatible:
         - 1.0.2
         - 1.0.3
@@ -977,7 +1087,8 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
-        verified: 2.0.15
+        - 2.0.16
+        verified: 2.0.16
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -3350,6 +3461,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3358,6 +3470,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3422,6 +3535,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.0
         - 1.4.1
+        - 1.4.2
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3436,6 +3550,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.0
         - 1.4.1
+        - 1.4.2
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
